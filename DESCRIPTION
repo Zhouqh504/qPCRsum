@@ -1,0 +1,16 @@
+Package: qPCRsum
+Title: qPCR result summary 
+Version: 0.9.0
+Authors@R: 
+    person("zhou", "qh", , "zhouqh20010504@163.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: qPCRsum is consist of three functions, calculate_dd_ct is used to calculate 2^(-−ΔΔCt),
+    perform_t_tests is used to conduct t-test and qpcr_plot is used to visualize the qPCR result
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Depends: 
+    dplyr,
+    ggplot2
